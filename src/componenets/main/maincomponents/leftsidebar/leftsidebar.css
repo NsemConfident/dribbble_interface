@@ -68,11 +68,6 @@
     gap: 0.8rem;
 }
 
-.container_explore ol{
-    list-style-type: none;
-    line-height: 40px;
-}
-
 .container_explore ol li{
     display: flex;
     flex-direction: row;

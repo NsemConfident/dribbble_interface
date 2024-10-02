@@ -3,3 +3,77 @@
     color: white;
     height: inherit;
 }
+
+.container_whotofollow{
+    background-color: var(--color-light);
+    padding: 16px 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.container_whotofollow h1{
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--color-white);
+
+}
+
+.container_whotofollow ol li{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+}
+
+.name_username{
+    line-height: 20px;
+    margin-right: 0.8rem;
+}
+
+.name_username h4{
+    font-weight: 400;
+}
+
+.container_whotofollow ol li button{
+    color: #7a6b4a;
+    border: 1px solid #7a6b4a;
+    padding: 2px;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    font-size: 0.8rem;
+    background-color: #1d2023;
+}
+
+.container_whotofollow > p{
+    text-align: center;
+    color: #7a6b4a;
+}
+
+.todaysnews{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    background-color: var(--color-light);
+    width: inherit;
+    padding: 10px;
+    border-radius: 10px;
+}
+.todaysnews_content img{
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.todaysnews_content .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.todaysnews_content .title h6{
+    font-weight: 200;
+    width: 80%;
+}
+
+
+
