@@ -5,10 +5,12 @@ import './main.css'
 
 const Main = () => {
   return (
+    <div className="container">
     <div className='container_main'>
         <Leftsidebar/>
         <Mainsection/>
         <Rightsidebar/>
+    </div>
     </div>
   )
 }

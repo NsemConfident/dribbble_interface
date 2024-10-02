@@ -1,4 +1,87 @@
 .container_mainsection{
-    background-color: rgba(35, 35, 105, 0.322);
+    padding: 20px 10px;
+    background-color: inherit;
     height: inherit;
+}
+
+.upcomminghikes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upcomminghikes h3{
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.upcomminghikes select{
+    background: none;
+    border: none;
+    color: var(--color-text-light);
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.card{
+    width: inherit;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.card_items{
+    display: inline-block;
+    background-color: var(--color-light);
+    margin: 20px 10px;
+    margin-left: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 20px;
+}
+
+.card_photos{
+    position: relative;
+    max-width: 300px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.card_photos img{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card_photos .card_date{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.884);
+    padding: 10px 5px;
+    border-radius: 10px;
+    line-height: 17px;
+}
+
+.card_photos .card_topograhy{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    background-blend-mode: color-burn;
+}
+
+.card_topograhy .distance h5{
+    color: var(--color-text-light);
 }
