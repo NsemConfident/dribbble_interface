@@ -1,9 +1,12 @@
 import './rightsidebar.css'
+import TodaysNews from './TodaysNews'
+import WhoToFollow from './WhoToFollow'
 
 const Rightsidebar = () => {
   return (
     <div className='container_right'>
-    <h1>right section</h1>
+    <WhoToFollow/>
+    <TodaysNews/>
     </div>
   )
 }
