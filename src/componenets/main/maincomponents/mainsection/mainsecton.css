@@ -1,4 +1,138 @@
 .container_mainsection{
-    background-color: rgba(35, 35, 105, 0.322);
+    padding: 20px 10px;
+    background-color: inherit;
     height: inherit;
+}
+
+.upcomminghikes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upcomminghikes h3{
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.upcomminghikes select{
+    background: none;
+    border: none;
+    color: var(--color-text-light);
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.card{
+    width: inherit;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.card_items{
+    display: inline-block;
+    background-color: var(--color-light);
+    margin: 10px 10px;
+    margin-left: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 20px;
+}
+
+.card_photos{
+    position: relative;
+    max-width: 300px;
+    max-height: 190px;
+    border-radius: 10px;
+}
+
+.card_photos img{
+    width: 300px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card_photos .card_date{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.884);
+    padding: 10px 5px;
+    border-radius: 10px;
+    line-height: 17px;
+}
+
+.card_photos .card_topograhy{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.151);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    background-blend-mode: color-burn;
+}
+
+.card_topograhy .distance h5{
+    color: var(--color-text-light);
+}
+
+.day{
+    color: green;
+    font-weight: 700;
+}
+
+.hike_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 ;
+}
+
+.hike_container button{
+    padding: 10px;
+    border: none;
+    background-color: #f8c76646;
+    border-radius: 20px;
+    width: 90px;
+    color: var(--color-active);
+}
+
+.profile_hikers{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.hiker{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-left: -10px;
+    border: 2px solid var(--color-active);
+    position: relative;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.151);
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 1rem;
+    border: none;
 }
