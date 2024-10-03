@@ -20,6 +20,8 @@
   --color-input: #202125;
 
   --container-width-lg: ;
+
+  --color-gradient: linear-gradient(45deg, purple, yellow) 1;
 }
 
 body{
