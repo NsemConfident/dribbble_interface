@@ -1,4 +1,9 @@
+
+import mountain from '../../../../../public/mypictures/nature-mountain.png'
+import nature from '../../../../../public/mypictures/nature.jpg'
 const Explore = () => {
+
+
   return (
     <div className="container_explore">
       <ol>
@@ -20,7 +25,6 @@ const Explore = () => {
               d="M4 10h16M8 14h8m-4-7V4M7 7V4m10 3V4M5 20h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z"
             />
           </svg>
-
           <p>Feed</p>
         </li>
 
@@ -41,7 +45,6 @@ const Explore = () => {
               d="M16 19h4a1 1 0 0 0 1-1v-1a3 3 0 0 0-3-3h-2m-2.236-4a3 3 0 1 0 0-4M3 18v-1a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Zm8-10a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
             />
           </svg>
-
           <p>Friends</p>
         </li>
 
@@ -140,15 +143,19 @@ const Explore = () => {
       <h4>PAGES YOU LIKE</h4>
       <ol>
         <li>
+        <img src={mountain} alt="" />
           <p>World of Mountains</p>
         </li>
         <li>
+        <img src={nature} alt="" />
           <p>Mountain Life</p>
         </li>
         <li>
+        <img src={mountain} alt="" />
           <p>Mountain Calling in</p>
         </li>
         <li>
+        <img src={mountain} alt="" />
           <p>Mountaineering</p>
         </li>
       </ol>
