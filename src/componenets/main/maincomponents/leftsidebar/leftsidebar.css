@@ -13,18 +13,14 @@
     align-items: center;
 }
 
-.container_profile .profile{
-    background-color: red;
-    height: 80px;
-    width: 80px;
-    background-image: url(../../../../../public/mypictures/mypic.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: none;
+.container_profile img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
     border-radius: 50%;
-    border: 2px solid inherit;
-    outline: 2px solid yellow;
+    border: 2px solid yellow;
 }
+
 
 .container_profile h2{
     font-size: 2rem;
@@ -69,9 +65,16 @@
     gap: 0.8rem;
 }
 
-.container_explore ol li{
+.container_explore ol li {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 0.2rem;
+}
+
+.container_explore ol li img{
+    height: 25px;
+    width: 30px;
+    border-radius: 5px;
+    object-fit: cover;
 }
