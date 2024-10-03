@@ -8,17 +8,20 @@
 }
 
 :root{
-  --color-black: #0e0e0e;
-  --color-light: #202125;
+  --color-black: #131415;
+  --color-light: #323539;
   --color-green: #2c7836;
   --color-white: #ffffff;
-  --color-active: #ffd27d;
+  --color-active: #ffd37d;
 
-  --color-text-light: rgba(255, 255, 255, 0.486);;
+  /* --color-text-light: rgba(255, 255, 255, 0.486);; */
+  --color-text-light: #d9e4ed;
 
   --color-input: #202125;
 
   --container-width-lg: ;
+
+  --color-gradient: linear-gradient(45deg, purple, yellow) 1;
 }
 
 body{
@@ -42,4 +45,8 @@ svg{
 ol{
   list-style-type: none;
   line-height: 40px;
+}
+
+hr{
+  border: 1px solid rgba(255, 255, 255, 0.068);
 }

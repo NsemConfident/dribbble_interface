@@ -37,7 +37,7 @@
 .card_items{
     display: inline-block;
     background-color: var(--color-light);
-    margin: 20px 10px;
+    margin: 10px 10px;
     margin-left: 0;
     padding: 10px;
     display: flex;
@@ -49,13 +49,13 @@
 .card_photos{
     position: relative;
     max-width: 300px;
-    max-height: 150px;
+    max-height: 190px;
     border-radius: 10px;
 }
 
 .card_photos img{
     width: 300px;
-    height: 150px;
+    height: 190px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -77,11 +77,62 @@
     position: absolute;
     bottom: 0;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.151);
+    backdrop-filter: blur(10px);
     width: 100%;
     background-blend-mode: color-burn;
 }
 
 .card_topograhy .distance h5{
     color: var(--color-text-light);
+}
+
+.day{
+    color: green;
+    font-weight: 700;
+}
+
+.hike_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 ;
+}
+
+.hike_container button{
+    padding: 10px;
+    border: none;
+    background-color: #f8c76646;
+    border-radius: 20px;
+    width: 90px;
+    color: var(--color-active);
+}
+
+.profile_hikers{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.hiker{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-left: -10px;
+    border: 2px solid var(--color-active);
+    position: relative;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.151);
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 1rem;
+    border: none;
 }
