@@ -35,6 +35,7 @@ const Nav = () => {
       </div>
       <div>
       <IoIosNotificationsOutline fontSize={30}/>
+      <div className="red_dot"></div>
       </div>
       <img src={profile} alt="my profile picture" />
       </div>

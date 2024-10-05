@@ -65,7 +65,7 @@
     gap: 0.8rem;
 }
 
-.container_explore ol li {
+.container_explore ol li, a{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -77,4 +77,16 @@
     width: 30px;
     border-radius: 5px;
     object-fit: cover;
+}
+
+.active{
+    padding: 0 10px;
+    width: 100%;
+    background-color: var(--color-active);
+    border-radius: 10px;
+    color: black;
+}
+
+.active p{
+    color: rgba(0, 0, 0, 0.322);
 }

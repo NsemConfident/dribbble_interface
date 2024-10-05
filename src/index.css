@@ -50,3 +50,8 @@ ol{
 hr{
   border: 1px solid rgba(255, 255, 255, 0.068);
 }
+
+select{
+  margin-right: 10px;
+  padding-right: 0;
+}
